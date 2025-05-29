@@ -1,0 +1,8 @@
+
+{
+  "name": "Lemon Symp AI",
+  "description": "A web application that uses AI to provide general information about potential conditions and OTC remedies based on visual symptoms (via camera) or described symptoms. This is not a medical diagnosis.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
