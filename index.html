@@ -2,18 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lemon Symp AI</title>
+    <link rel="icon" href="/favicon.ico" />
 
     <!-- ✅ Google AdSense Script -->
-    <script
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8301774269042432"
-      crossorigin="anonymous"
-    ></script>
+    <script async 
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8301774269044238"
+      crossorigin="anonymous">
+    </script>
 
-    <!-- ✅ TailwindCSS CDN -->
+    <!-- ✅ TailwindCSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- ✅ Import Maps for ESM modules -->
@@ -28,7 +27,7 @@
       }
     </script>
 
-    <!-- ✅ Custom Styles -->
+    <!-- ✅ Styles -->
     <style>
       body {
         font-family: 'Inter', sans-serif;
@@ -53,22 +52,20 @@
         background: #555;
       }
     </style>
-
-    <!-- ✅ Optional: External Stylesheet -->
     <link rel="stylesheet" href="index.css" />
   </head>
 
   <body class="bg-slate-100 text-slate-800">
 
-    <!-- ✅ Visible AdSense Ad Unit -->
+    <!-- ✅ AdSense Ad Unit (must be directly in HTML) -->
     <div class="my-6 flex justify-center">
-      <!-- 🛑 Replace data-ad-slot value below with your actual AdSense slot ID if needed -->
       <ins class="adsbygoogle"
         style="display:block"
-        data-ad-client="ca-pub-8301774269042432"
+        data-ad-client="ca-pub-8301774269044238"
         data-ad-slot="4708755360"
         data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
+        data-full-width-responsive="true">
+      </ins>
       <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
@@ -77,7 +74,7 @@
     <!-- ✅ React App Root -->
     <div id="root"></div>
 
-    <!-- ✅ React Main Script -->
+    <!-- ✅ React Entry -->
     <script type="module" src="/index.tsx"></script>
   </body>
 </html>
