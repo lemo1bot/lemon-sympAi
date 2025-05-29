@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lemon Symp AI</title>
 
-    <!-- ✅ Google AdSense Verification -->
+    <!-- ✅ Google AdSense Script -->
     <script
       async
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8301774269042432"
@@ -20,10 +20,10 @@
     <script type="importmap">
       {
         "imports": {
-          "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
-          "react/": "https://esm.sh/react@^19.1.0/",
-          "react": "https://esm.sh/react@^19.1.0",
-          "@google/genai": "https://esm.sh/@google/genai@^1.2.0"
+          "react-dom/": "https://esm.sh/react-dom@19.1.0/",
+          "react/": "https://esm.sh/react@19.1.0/",
+          "react": "https://esm.sh/react@19.1.0",
+          "@google/genai": "https://esm.sh/@google/genai@1.2.0"
         }
       }
     </script>
@@ -54,14 +54,29 @@
       }
     </style>
 
-    <!-- ✅ Optional: External CSS if you have index.css -->
+    <!-- ✅ Optional: External Stylesheet -->
     <link rel="stylesheet" href="index.css" />
   </head>
 
   <body class="bg-slate-100 text-slate-800">
+
+    <!-- ✅ Visible AdSense Ad Unit (IMPORTANT for verification) -->
+    <div class="my-6 flex justify-center">
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-8301774269042432"
+        data-ad-slot="4708755360" <!-- 🛑 Replace this with your real ad slot ID -->
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+
+    <!-- ✅ React App Root -->
     <div id="root"></div>
 
-    <!-- ✅ Main Script Entry -->
+    <!-- ✅ React Main Script -->
     <script type="module" src="/index.tsx"></script>
   </body>
 </html>
